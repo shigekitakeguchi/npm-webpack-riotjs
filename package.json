@@ -1,0 +1,19 @@
+{
+  "name": "npm-webpack-riotjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "lite-server": "^2.2.0",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "webpack": "webpack -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run lite\" \"npm run webpack\""
+  },
+  "keywords": [],
+  "author": "shigeki.takeguchi",
+  "license": "MIT"
+}
