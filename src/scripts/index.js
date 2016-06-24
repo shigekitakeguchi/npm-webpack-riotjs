@@ -1,1 +1,3 @@
-index.js
+require('./app.tag');
+
+riot.mount('*');

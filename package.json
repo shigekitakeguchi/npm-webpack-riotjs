@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-riot": "^1.1.0",
     "concurrently": "^2.1.0",
     "lite-server": "^2.2.0",
+    "riotjs-loader": "^3.0.0",
     "webpack": "^1.13.0"
   },
   "scripts": {
@@ -15,5 +20,8 @@
   },
   "keywords": [],
   "author": "shigeki.takeguchi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "riot": "^2.4.1"
+  }
 }
